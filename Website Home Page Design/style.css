@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.disc {
+    background-color: gold;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.buy {
+    font-size: 20px;
+    margin-left: 12px;
+    height: 50px;
+    font-weight: bold;
+    align-content: center;
+    text-decoration: underline;
+}
+
+.buy:hover{
+    color: red;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+    height: 10vh;
+    width: 90vw;
+    background-color: gainsboro;
+    border-radius: 16px;
+}
+
+.navbar {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 12vh;
+    width: 99vw;
+    position: sticky;
+    top: 0;
+}
+
+.button {
+    height: 40px;
+    width: 122px;
+    background-color: gold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.lang {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head {
+    display: flex;
+    font-size: 50px;
+    margin-top: 10vh;
+    display: flex;
+    font-weight: bold;
+    margin-left: 5vw;
+}
+
+img {   
+    height: 480px;
+    width: 800px;
+    margin-top: 9.8vh;
+    border-radius: 16px;
+    float: right;
+    margin-right: 80px;
+    margin-left: 5vw;
+}
+
+.txt {
+    margin-top: 2vh;
+    font-size: 20px;
+    margin-left: 5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.free {
+    height: 40px;
+    width: 100px;
+    background-color: gold;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.plans {
+    height: 40px;
+    width: 100px;
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    background-color: beige;
+    border-radius: 6px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.review {
+    height : 40px;
+    width: 200px;
+    float: left;
+    margin-top: 2vh;
+}
+
+.footer {
+    margin-left: 5vw;
+    margin-top: 1vh;
+}
