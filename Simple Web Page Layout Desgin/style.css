@@ -3,6 +3,11 @@
     margin: 0;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+}
+
 ul {
     height: 45px;
     font-size: 18px;
